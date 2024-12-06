@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #0078D7;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #0078D7;
+    color: white;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+    width: 95%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.add-btn:hover {
+    background-color: #218838;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.calculate-btn {
+    background-color: #0078D7;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.calculate-btn:hover {
+    background-color: #005bb5;
+}
+
+.result {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #0078D7;
+}
+
+html, body {
+height: 100%;
+margin: 0;
+display: flex;
+flex-direction: column;
+}
+
+main {
+flex: 1; /* Hace que el contenido principal ocupe el espacio restante */
+}
+
+footer {
+background-color: #0078D7;
+color: white;
+padding: 20px;
+text-align: center;
+font-size: 14px;
+border-top: 4px solid #005bb5;
+margin-top: auto; /* Se asegura de que el footer esté al final */
+}
+
+footer a {
+color: #ffdf00;
+text-decoration: none;
+font-weight: bold;
+}
+
+footer a:hover {
+text-decoration: underline;
+}
+
+.footer-links {
+list-style: none;
+padding: 0;
+margin: 10px 0 0;
+display: flex;
+justify-content: center;
+gap: 15px;
+}
+
+.footer-links li {
+display: inline;
+}
